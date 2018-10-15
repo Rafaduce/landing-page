@@ -22,3 +22,70 @@
 #home .home-inner {
     padding-top: 150px;
 }
+
+focus {
+    outline: none;
+}
+
+.login {
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-left: 70%;
+}
+
+.login-screen {
+    display: flex;
+    align-content: flex-end;
+    background-color: #008ed6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.app-title {
+    text-align: center;
+    color: rgb(2, 2, 2);
+}
+
+.login-form {
+    text-align: center;
+}
+
+.control-group {
+    margin-bottom: 10px;
+}
+
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+
+.btn {
+    border: 2px solid transparent;
+    background: #3498DB;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.login-link {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-top: 12px;
+}
